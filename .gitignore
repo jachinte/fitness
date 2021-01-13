@@ -1,0 +1,49 @@
+### Eclipse ###
+
+.project
+.settings
+.classpath
+
+META-INF/
+build.properties
+plugin.properties
+plugin.xml
+
+### Intellij ###
+.idea/
+
+## File-based project format:
+*.iws
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+### Others ###
+
+Thumbs.db
+.DS_Store
+.gradle
+**/*.jar
+**/bin/*
+**/out/*
+**/build/*
+**/target/*
+**/xtend-gen/*
+**/xtext-gen/*
+**/xcore-gen/*
+**/src-gen/*
+tmp/
+**/R.data
+
+### Allow libraries ###
+!**/lib/*.jar
+!**/templates/**/*.jar
